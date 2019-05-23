@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <title>Youssef Errami</title>
+        <meta name="author" content="">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    </head>
+
+    
+
+    <body>
+         
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script src="js/script.js"></script>
+    </body>
+
+    <script>
+        window.addEventListener("DOMContentLoaded", scrollLoop, false)
+        
+        var xScrollPosition;
+        var yScrollPosition;
+        var bg = document.querySelector(".bg")
+        
+        function scrollLoop(e) {
+            xScrollPosition = window.scrollX;
+            yScrollPosition = window.scrollY;
+            
+            setTranslate(0,yScrollPosition*-.5,bg)
+        
+            requestAnimationFrame(scrollLoop);
+        }
+        
+        function setTranslate(xPos,yPos, el) {
+            el.style.transform = "translate3D(" + xPos + ", " + yPos + "px, 0";
+        
+        }
+    </script>
+
+
+</html>
