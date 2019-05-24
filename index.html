@@ -14,33 +14,66 @@
     
 
     <body>
-         
+
+        <div class="bgimg-1">
+            <div class="caption">
+                <span class="border">Youssef Errami</span>
+            </div>
+        </div>
+        
+        <div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
+            <!-- <h3 style="text-align:center;">About Me</h3> -->
+            <p>Hi, I'm Youssef, a computer science student at the University of Virginia expected to graduate in May 2020. </p>
+        </div>
+        
+        <div class="bgimg-2">
+            <div class="caption">
+                <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">Experience</span>
+            </div>
+        </div>
+        
+        <div style="position:relative;">
+            <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+                <p>Scroll up and down to really get the feeling of how Parallax Scrolling works. (exp stuff goes here)</p>
+            </div>
+        </div>
+        
+        <div class="bgimg-3">
+            <div class="caption">
+                <span class="border">SKILLS</span>
+            </div>
+        </div>
+        
+        <div style="position:relative;">
+            <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+                <p>Scroll up and down to really get the feeling of how Parallax Scrolling works.</p>
+            </div>
+        </div>
+
+        <div class="bgimg-4">
+            <div class="caption">
+                <span class="border">Projects</span>
+            </div>
+        </div>
+            
+        <div style="position:relative;">
+            <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+                <p>Scroll up and down to really get the feeling of how Parallax Scrolling works.</p>
+            </div>
+        </div>
+        
+        <div class="bgimg-5">
+            <div class="caption">
+                <span class="border">Lets Connect!</span>
+            </div>
+        </div>
+
+
+
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
         <script src="js/script.js"></script>
     </body>
-
-    <script>
-        window.addEventListener("DOMContentLoaded", scrollLoop, false)
-        
-        var xScrollPosition;
-        var yScrollPosition;
-        var bg = document.querySelector(".bg")
-        
-        function scrollLoop(e) {
-            xScrollPosition = window.scrollX;
-            yScrollPosition = window.scrollY;
-            
-            setTranslate(0,yScrollPosition*-.5,bg)
-        
-            requestAnimationFrame(scrollLoop);
-        }
-        
-        function setTranslate(xPos,yPos, el) {
-            el.style.transform = "translate3D(" + xPos + ", " + yPos + "px, 0";
-        
-        }
-    </script>
 
 
 </html>
