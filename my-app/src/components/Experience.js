@@ -28,7 +28,6 @@ class Experience extends React.Component {
                   <Media body>
                     <Media heading>
                       <a href={experience.url}>{experience.companyName}</a>
-                      <span className="jobTotalDuration">{getDuration(totalDuration)}</span>
                     </Media>
 
                     {experience.roles.map(function (role, i) {
