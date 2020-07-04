@@ -75,7 +75,7 @@ class Profile extends React.Component {
             <PersonalProjects/>
           </TabPane>
           <TabPane tabId="4">
-            <ToolsAndTechnologies/>
+            <LanguagesAndTechnologies/>
           </TabPane> */}
         </TabContent>
       </Container>
