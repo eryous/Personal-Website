@@ -10,15 +10,6 @@ class Experience extends React.Component {
       <Row>
         <Col>
           {profile.experiences.map(function (experience, i) {
-            moment.locale('en');
-
-            const totalDuration = experience.roles.reduce(function (cnt, role) {
-              const startDate = moment(role.startDate);
-              const timeEnd = moment(role.currentJob ? new Date() : new Date(role.endDate));
-              const duration = moment.duration(timeEnd.diff(startDate));
-              return Number(cnt) + Number(duration.asMonths().toPrecision(1));
-            }, 0);
-
             return (
               <div key={i}>
                 <Media>
@@ -33,8 +24,6 @@ class Experience extends React.Component {
                     {experience.roles.map(function (role, i) {
                       const startDate = moment(role.startDate);
                       const timeEnd = moment(role.currentJob ? new Date() : new Date(role.endDate));
-                      const duration = Number(moment.duration(timeEnd.diff(startDate)).asMonths().toPrecision(1));
-
                       return <div key={i}>
                         <h5><a href={role.link}>{role.title}</a></h5>
                         <span
