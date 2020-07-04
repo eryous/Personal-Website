@@ -1,0 +1,70 @@
+.profile-pic {
+  height: 100vmin;
+  vertical-align: middle;
+  border-radius: 50px;
+}
+
+a {
+  color: #343a40;
+}
+
+a:hover {
+  color: #173798;
+  text-decoration: none;
+}
+
+div.media {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+div.media .media-heading .jobTotalDuration {
+  color: #666;
+  font-size: 14px;
+  display: block;
+}
+
+div.media img {
+  height: 15vmin;
+  /* margin-top: 10px; */
+  margin-right: 50px;
+  border-radius: 50px;
+}
+
+div.media .jobDuration {
+  color: #444;
+  display: block;
+}
+
+div.media .jobLocation {
+  color: #666;
+}
+
+.formLabel {
+  font-weight: bold;
+}
+
+.certificateLink {
+  color: cornflowerblue;
+}
+
+footer {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  border-top: #444444;
+  text-align: center;
+  /* position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 100px;
+  width: 100%;
+  overflow: hidden; */
+}
+
+footer a {
+  color: black;
+  font-size: 30px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
