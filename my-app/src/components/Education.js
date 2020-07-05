@@ -1,6 +1,5 @@
 import React from 'react';
 import {Container, Row, Col, Media} from 'reactstrap';
-import moment from 'moment';
 import profile from '../profile.json';
 
 class Education extends React.Component {
@@ -20,8 +19,12 @@ class Education extends React.Component {
                 {
                   [
                     {
-                      "key": "Title",
-                      "value": study.title
+                      "key": "Degree",
+                      "value": study.degree
+                    },
+                    {
+                      "key": "Major",
+                      "value": study.major
                     },
                     {
                       "key": "Duration",
@@ -38,6 +41,22 @@ class Education extends React.Component {
                     </div>
                   })
                 }
+                <div>
+                  <Row>
+                    <Col className="formLabel">Relavent Courses:</Col>
+                  </Row>
+                  <Row>
+                    <Col>
+                      {study.relevantCourses.map(function (course, i) {
+                            return <div key={i}>
+                            <ul>
+                              <li>{course.course}</li>
+                            </ul>
+                            </div>
+                      })}
+                    </Col>
+                  </Row>
+                </div>
               </Media>
             </Media>
           })}

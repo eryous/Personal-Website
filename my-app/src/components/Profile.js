@@ -2,9 +2,12 @@ import React from 'react';
 import {Jumbotron, Container, TabContent, TabPane, Nav, NavItem, NavLink } from "reactstrap";
 import classnames from 'classnames';
 import Experience from "./Experience";
-import Education from './Education'
-import profile from '../profile.json'
-import profilePic from "../images/profilePic.jpg"
+import Education from './Education';
+import PersonalProjects from './PersonalProjects';
+import LanguagesAndTechnologies from './LanguagesAndTechnologies';
+import profile from '../profile.json';
+import profilePic from "../images/profilePic.jpg";
+import bg from "../images/jumbotron_bg.jpg"
 
 
 class Profile extends React.Component {
@@ -27,13 +30,13 @@ class Profile extends React.Component {
 
   render() {
     return <div>
-      <Jumbotron>
-        <div class="media">
-          <img class="mr-3" src={profilePic} className="profile-pic"></img>
-          <div class="media-body">
-            <h1 className="display-4">{profile.title}</h1>
-            <p className="lead">{profile.summary}</p>
-          </div>
+      <Jumbotron style={{ backgroundImage: `url(${bg})`, backgroundSize: '100% 100%'}}>
+        <div class="med">
+          <img src={profilePic} className="profile-pic"></img>
+        </div>
+        <div class="m">
+          <h1 className="display-4">{profile.title}</h1>
+          <p className="lead">{profile.summary}</p>
         </div>
       </Jumbotron>
 
@@ -54,7 +57,7 @@ class Profile extends React.Component {
           <NavItem>
             <NavLink className={classnames({ active: this.state.activeTab === '3' })}
                      onClick={() => { this.toggle('3'); }}>
-              Personal Projects
+              Projects
             </NavLink>
           </NavItem>
           <NavItem>
@@ -71,12 +74,12 @@ class Profile extends React.Component {
           <TabPane tabId="2">
             <Education/>
           </TabPane>
-          {/* <TabPane tabId="3">
+          <TabPane tabId="3">
             <PersonalProjects/>
           </TabPane>
           <TabPane tabId="4">
             <LanguagesAndTechnologies/>
-          </TabPane> */}
+          </TabPane>
         </TabContent>
       </Container>
     </div>;

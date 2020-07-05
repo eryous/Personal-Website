@@ -6,9 +6,45 @@
         "institute": "University of Virginia",
         "logo": "https://logos-download.com/wp-content/uploads/2017/11/University_of_Virginia_1819_logo-700x700.png",
         "url": "https://engineering.virginia.edu/departments/computer-science",
-        "title": "Bachelors in Computer Science",
+        "degree": "Bachelors of Science (B.S.)",
+        "major" : "Computer Science",
         "startYear": "Aug 2016",
-        "endYear": "May 2020"
+        "endYear": "May 2020",
+        "relevantCourses":[
+            {
+                "course": "Graduate-level Software Analysis and Applications (Python)"
+            },
+            {
+                "course": "Graduate-level Design and Analysis of Algorithms (Python)"
+            },
+            {
+                "course": "Operating Systems (C/C++)"
+            },
+            {
+                "course": "Artificial Intelligence (Python)"
+            },
+            {
+                "course": "Algorithms (Python)"
+            },
+            {
+                "course": "Theory of Computation (Python)"
+            },
+            {
+                "course": "Software Testing (Java)"
+            },
+            {
+                "course": "Robotics for Software Engineers (Python)"
+            },
+            {
+                "course": "Computer Architecture (C/C++)"
+            },
+            {
+                "course": "Advanced Software Development (Python & Javascript)"
+            },
+            {
+                "course": "Program and Data Representation (C/C++)"
+            }
+        ]
       }
     ],
     "experiences": [
@@ -51,5 +87,88 @@
             }
         ]
       }
-    ]
+    ],
+    "personalProjects": [
+        {
+          "projectName":"Twitter Sentiment Analysis Tool",
+          "logo":"https://www.clipartkey.com/mpngs/m/81-815856_twitter-logo-inside-a-gear-twitter-api-png.png",
+          "url":"https://github.com/eryous/twitterSentiAnalysis",
+          "description":"This is a Python program that uses the Tweepy, Matplotlib and Aylien Applicant Libraries that prompts a user to input a word and an amount of tweets that you want analyzed so that you can see the general sentiment of the given word. The tweets are analyzed using the Aylien Applicant Library and then output a pie chart that contains the results which are categorized as a 'Positive', 'Negative' or 'Neutral' comment"
+        },
+        {
+            "projectName":"Voronoi Video Art",
+            "logo":"https://jef.works/art-with-code//img/voronoi_1.jpg",
+            "url":"https://github.com/eryous/Voronoi-Video-Art",
+            "description":"This is a project I and two other teammates developed which consists of implementing Voronoi Art over videos. We took a short 3-4 second video, and decomposed it down into individual frames (each video typically had about 100 frames, each saved as its own .jpg file). We then applied a voronoi algorithm based on Delaunay Triangulation since the voronoi diagram of a set of points is the dual of the Delaunay Triangulation of the same points. We then recompiled the .jpg files together again to create a video with the Voronoi diagrams overlaid over each frame."
+        },
+        {
+            "projectName":"Taskey: Study Buddy Matching Web App",
+            "logo":"https://i.imgur.com/fk3YR08.png",
+            "url":"https://student-matching-taskey.herokuapp.com/",
+            "description":"Taskey is a web application that I and three other teammates developed to help connect UVa students who wish to study for a class together. Taskey allows students to look up any course offered at UVa and enroll in said course. Once the student is enrolled in the course, they then have the option to connect with other students enrolled in the class, either by email or by messaging each other on the app. This web application was implemented using Python backend (Django), Javascript frontend, Testing done using Travis CI and deployed using Heroku with a SQLite database."
+        }
+      ],
+      "languages":[
+          {
+            "name":"Python",
+            "logo":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1024px-Python-logo-notext.svg.png"
+          },
+          {
+            "name":"C++",
+            "logo":"https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1200px-ISO_C%2B%2B_Logo.svg.png"
+          },
+          {
+            "name":"C",
+            "logo":"https://cdn.iconscout.com/icon/free/png-512/c-programming-569564.png"
+          },
+          {
+            "name":"Java",
+            "logo":"data:image/png;base64,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"
+          },
+          {
+            "name":"Javascript",
+            "logo":"https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
+          }
+      ],
+      "technologies":[
+          {
+            "name":"Django"
+          },
+          {
+            "name":"React"
+          },
+          {
+            "name":"Docker"
+          },
+          {
+            "name":"TensorFlow"
+          },
+          {
+            "name":"TravisCI"
+          },
+          {
+            "name":"Git"
+          },
+          {
+            "name":"NumPy"
+          },
+          {
+            "name":"AWS"
+          },
+          {
+            "name":"Tweepy"
+          },
+          {
+            "name":"OpenCV"
+          },
+          {
+            "name":"Heroku"
+          },
+          {
+            "name":"ROS"
+          },
+          {
+            "name":"Scikit-Learn"
+          }
+      ]
   }

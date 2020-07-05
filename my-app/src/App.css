@@ -1,7 +1,17 @@
-.profile-pic {
-  height: 100vmin;
-  vertical-align: middle;
+div.m {
+  color: #ffffff;
+  font-size: 20px;
+  margin-top: -170px;
+  margin-inline-start: 300px;
+  display: block;
+}
+
+div.med img {
+  height: 25vmin;
+  /* margin-top: 10px; */
+  margin-right: 50px;
   border-radius: 50px;
+  /* filter: brightness(1); */
 }
 
 a {
@@ -44,21 +54,11 @@ div.media .jobLocation {
   font-weight: bold;
 }
 
-.certificateLink {
-  color: cornflowerblue;
-}
-
 footer {
   margin-top: 20px;
   margin-bottom: 10px;
   border-top: #444444;
   text-align: center;
-  /* position: absolute;
-  left: 0;
-  bottom: 0;
-  height: 100px;
-  width: 100%;
-  overflow: hidden; */
 }
 
 footer a {
