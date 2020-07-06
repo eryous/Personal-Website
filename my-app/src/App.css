@@ -1,3 +1,11 @@
+hr {
+  border: 0;
+  clear:both;
+  display:block;
+  width: 96%;               
+  height: 1px;
+}
+
 div.m {
   color: #ffffff;
   font-size: 20px;
@@ -6,8 +14,27 @@ div.m {
   display: block;
 }
 
+div.mmobile {
+  color: #ffffff;
+  font-size: 20px;
+  /* margin-top: -170px; */
+  margin-inline-start: 10px;
+  display: block;
+}
+
+div.medmobile img {
+  max-height: 250px;
+  max-width: 250px;
+  /* margin-top: 10px; */
+  margin-right: 50px;
+  border-radius: 50px;
+  margin-inline-start: 10px;
+  /* filter: brightness(1); */
+}
+
 div.med img {
-  height: 25vmin;
+  max-height: 250px;
+  max-width: 250px;
   /* margin-top: 10px; */
   margin-right: 50px;
   border-radius: 50px;
@@ -35,7 +62,8 @@ div.media .media-heading .jobTotalDuration {
 }
 
 div.media img {
-  height: 15vmin;
+  max-height: 120px;
+  max-width: 120px;
   /* margin-top: 10px; */
   margin-right: 50px;
   border-radius: 50px;

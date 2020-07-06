@@ -1,14 +1,13 @@
 import React, { Component } from 'react';
 import './App.css';
-import Profile from './components/Profile';
-import Footer from './components/Footer';
+import Loading from './components/Loading'
+
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <Profile />
-        <Footer />
+        <Loading />
       </div>
     );
   }
