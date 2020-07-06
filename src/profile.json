@@ -169,7 +169,7 @@
           },
           {
             "name":"OpenCV",
-            "logo":"https://lh3.googleusercontent.com/proxy/zko85v9tDJ7g8aoIVAtN0bewPulOxEWkineThhJouiw-Si86R8uO35-p1i1jGRENZ5CZ-Ti2NOqozbVZNrTkegr6itO5aJrlcFPUQPXR5abCpZNMJDtY"
+            "logo":"http://embedonix.com/wp-content/uploads/2016/01/opencv_logo.png"
           },
           {
             "name":"Heroku",
@@ -177,7 +177,7 @@
           },
           {
             "name":"ROS",
-            "logo":"https://lh3.googleusercontent.com/proxy/4o5RK0jvf7LE3KR2bnWkBC_ix86Kw6Y_Oksz6PSeKTrjmV2MP1dwq1KqicXwjlMQ5CxkpnsQEtWiLT7GtqcVm_BE6Ae8acMtFQBQuJLLfdP-K6P0Iw8"
+            "logo":"http://so.engineering/wp-content/uploads/2019/03/ROS-Logo-.png"
           },
           {
             "name":"Scikit-Learn",
