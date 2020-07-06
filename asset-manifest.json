@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/my-app/static/css/main.89bec2a6.chunk.css",
-    "main.js": "/my-app/static/js/main.bfee85f7.chunk.js",
-    "main.js.map": "/my-app/static/js/main.bfee85f7.chunk.js.map",
-    "runtime-main.js": "/my-app/static/js/runtime-main.58a6d01e.js",
-    "runtime-main.js.map": "/my-app/static/js/runtime-main.58a6d01e.js.map",
-    "static/css/2.db6f3515.chunk.css": "/my-app/static/css/2.db6f3515.chunk.css",
-    "static/js/2.ca0e9dfc.chunk.js": "/my-app/static/js/2.ca0e9dfc.chunk.js",
-    "static/js/2.ca0e9dfc.chunk.js.map": "/my-app/static/js/2.ca0e9dfc.chunk.js.map",
-    "index.html": "/my-app/index.html",
-    "precache-manifest.c10c9759b0d97a8a40ddde925375ba3e.js": "/my-app/precache-manifest.c10c9759b0d97a8a40ddde925375ba3e.js",
-    "service-worker.js": "/my-app/service-worker.js",
-    "static/css/2.db6f3515.chunk.css.map": "/my-app/static/css/2.db6f3515.chunk.css.map",
-    "static/css/main.89bec2a6.chunk.css.map": "/my-app/static/css/main.89bec2a6.chunk.css.map",
-    "static/js/2.ca0e9dfc.chunk.js.LICENSE.txt": "/my-app/static/js/2.ca0e9dfc.chunk.js.LICENSE.txt",
-    "static/media/jumbotron_bg.jpg": "/my-app/static/media/jumbotron_bg.81f3da7e.jpg",
-    "static/media/profilePic.jpg": "/my-app/static/media/profilePic.d3838395.jpg"
+    "main.css": "/static/css/main.89bec2a6.chunk.css",
+    "main.js": "/static/js/main.4f5be2d4.chunk.js",
+    "main.js.map": "/static/js/main.4f5be2d4.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.83c3e0c4.js",
+    "runtime-main.js.map": "/static/js/runtime-main.83c3e0c4.js.map",
+    "static/css/2.db6f3515.chunk.css": "/static/css/2.db6f3515.chunk.css",
+    "static/js/2.ca0e9dfc.chunk.js": "/static/js/2.ca0e9dfc.chunk.js",
+    "static/js/2.ca0e9dfc.chunk.js.map": "/static/js/2.ca0e9dfc.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.9f84595d766a4bf9492938ac2f4fdecc.js": "/precache-manifest.9f84595d766a4bf9492938ac2f4fdecc.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.db6f3515.chunk.css.map": "/static/css/2.db6f3515.chunk.css.map",
+    "static/css/main.89bec2a6.chunk.css.map": "/static/css/main.89bec2a6.chunk.css.map",
+    "static/js/2.ca0e9dfc.chunk.js.LICENSE.txt": "/static/js/2.ca0e9dfc.chunk.js.LICENSE.txt",
+    "static/media/jumbotron_bg.jpg": "/static/media/jumbotron_bg.81f3da7e.jpg",
+    "static/media/profilePic.jpg": "/static/media/profilePic.d3838395.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.58a6d01e.js",
+    "static/js/runtime-main.83c3e0c4.js",
     "static/css/2.db6f3515.chunk.css",
     "static/js/2.ca0e9dfc.chunk.js",
     "static/css/main.89bec2a6.chunk.css",
-    "static/js/main.bfee85f7.chunk.js"
+    "static/js/main.4f5be2d4.chunk.js"
   ]
 }
