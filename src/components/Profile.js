@@ -63,22 +63,22 @@ class Profile extends React.Component {
 
         <Container>
           <Nav tabs>
-            <NavItem>
+          <NavItem>
               <NavLink className={classnames({ active: this.state.activeTab === '1' })}
                       onClick={() => { this.toggle('1'); }}>
-                Experience
+                Projects
               </NavLink>
             </NavItem>
             <NavItem>
               <NavLink className={classnames({ active: this.state.activeTab === '2' })}
                       onClick={() => { this.toggle('2'); }}>
-                Education
+                Experience
               </NavLink>
             </NavItem>
             <NavItem>
               <NavLink className={classnames({ active: this.state.activeTab === '3' })}
                       onClick={() => { this.toggle('3'); }}>
-                Projects
+                Education
               </NavLink>
             </NavItem>
             <NavItem>
@@ -90,13 +90,13 @@ class Profile extends React.Component {
           </Nav>
           <TabContent activeTab={this.state.activeTab}>
             <TabPane tabId="1">
-              <Experience/>
+              <PersonalProjects/>
             </TabPane>
             <TabPane tabId="2">
-              <Education/>
+              <Experience/>
             </TabPane>
             <TabPane tabId="3">
-              <PersonalProjects/>
+              <Education/>
             </TabPane>
             <TabPane tabId="4">
               <LanguagesAndTechnologies/>
@@ -118,22 +118,22 @@ class Profile extends React.Component {
 
         <Container>
           <Nav tabs>
-            <NavItem>
+          <NavItem>
               <NavLink className={classnames({ active: this.state.activeTab === '1' })}
                       onClick={() => { this.toggle('1'); }}>
-                Experience
+                Projects
               </NavLink>
             </NavItem>
             <NavItem>
               <NavLink className={classnames({ active: this.state.activeTab === '2' })}
                       onClick={() => { this.toggle('2'); }}>
-                Education
+                Experience
               </NavLink>
             </NavItem>
             <NavItem>
               <NavLink className={classnames({ active: this.state.activeTab === '3' })}
                       onClick={() => { this.toggle('3'); }}>
-                Projects
+                Education
               </NavLink>
             </NavItem>
             <NavItem>
@@ -145,13 +145,13 @@ class Profile extends React.Component {
           </Nav>
           <TabContent activeTab={this.state.activeTab}>
             <TabPane tabId="1">
-              <Experience/>
+              <PersonalProjects/>
             </TabPane>
             <TabPane tabId="2">
-              <Education/>
+              <Experience/>
             </TabPane>
             <TabPane tabId="3">
-              <PersonalProjects/>
+              <Education/>
             </TabPane>
             <TabPane tabId="4">
               <LanguagesAndTechnologies/>
