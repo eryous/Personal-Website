@@ -55,8 +55,8 @@ class Profile extends React.Component {
           <br></br>
           <Row>
             <div className="mmobile">
-              <h1 className="display-4">{profile.title}</h1>
-              <p className="lead">{profile.summary}</p>
+              <h1 className="display-4" style = {{fontWeight: "bold"}}>{profile.title}</h1>
+              <p className="lead" style = {{color: "white"}}>{profile.summary}</p>
             </div>
           </Row>
         </Jumbotron>
@@ -111,8 +111,8 @@ class Profile extends React.Component {
             <img src={profilePic} className="profile-pic" alt={profile.title}></img>
           </div>
           <div className="m">
-            <h1 className="display-4">{profile.title}</h1>
-            <p className="lead">{profile.summary}</p>
+            <h1 className="display-4" style = {{fontWeight: "bold"}}>{profile.title}</h1>
+            <p className="lead" style = {{color: "white"}}>{profile.summary}</p>
           </div>
         </Jumbotron>
 
