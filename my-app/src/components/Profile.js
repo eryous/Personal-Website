@@ -55,30 +55,30 @@ class Profile extends React.Component {
           <br></br>
           <Row>
             <div className="mmobile">
-              <h1 className="display-4">{profile.title}</h1>
-              <p className="lead">{profile.summary}</p>
+              <h1 className="display-4" style = {{fontWeight: "bold"}}>{profile.title}</h1>
+              <p className="lead" style = {{color: "white"}}>{profile.summary}</p>
             </div>
           </Row>
         </Jumbotron>
 
         <Container>
           <Nav tabs>
-            <NavItem>
+          <NavItem>
               <NavLink className={classnames({ active: this.state.activeTab === '1' })}
                       onClick={() => { this.toggle('1'); }}>
-                Experience
+                Projects
               </NavLink>
             </NavItem>
             <NavItem>
               <NavLink className={classnames({ active: this.state.activeTab === '2' })}
                       onClick={() => { this.toggle('2'); }}>
-                Education
+                Experience
               </NavLink>
             </NavItem>
             <NavItem>
               <NavLink className={classnames({ active: this.state.activeTab === '3' })}
                       onClick={() => { this.toggle('3'); }}>
-                Projects
+                Education
               </NavLink>
             </NavItem>
             <NavItem>
@@ -90,13 +90,13 @@ class Profile extends React.Component {
           </Nav>
           <TabContent activeTab={this.state.activeTab}>
             <TabPane tabId="1">
-              <Experience/>
+              <PersonalProjects/>
             </TabPane>
             <TabPane tabId="2">
-              <Education/>
+              <Experience/>
             </TabPane>
             <TabPane tabId="3">
-              <PersonalProjects/>
+              <Education/>
             </TabPane>
             <TabPane tabId="4">
               <LanguagesAndTechnologies/>
@@ -111,29 +111,29 @@ class Profile extends React.Component {
             <img src={profilePic} className="profile-pic" alt={profile.title}></img>
           </div>
           <div className="m">
-            <h1 className="display-4">{profile.title}</h1>
-            <p className="lead">{profile.summary}</p>
+            <h1 className="display-4" style = {{fontWeight: "bold"}}>{profile.title}</h1>
+            <p className="lead" style = {{color: "white"}}>{profile.summary}</p>
           </div>
         </Jumbotron>
 
         <Container>
           <Nav tabs>
-            <NavItem>
+          <NavItem>
               <NavLink className={classnames({ active: this.state.activeTab === '1' })}
                       onClick={() => { this.toggle('1'); }}>
-                Experience
+                Projects
               </NavLink>
             </NavItem>
             <NavItem>
               <NavLink className={classnames({ active: this.state.activeTab === '2' })}
                       onClick={() => { this.toggle('2'); }}>
-                Education
+                Experience
               </NavLink>
             </NavItem>
             <NavItem>
               <NavLink className={classnames({ active: this.state.activeTab === '3' })}
                       onClick={() => { this.toggle('3'); }}>
-                Projects
+                Education
               </NavLink>
             </NavItem>
             <NavItem>
@@ -145,13 +145,13 @@ class Profile extends React.Component {
           </Nav>
           <TabContent activeTab={this.state.activeTab}>
             <TabPane tabId="1">
-              <Experience/>
+              <PersonalProjects/>
             </TabPane>
             <TabPane tabId="2">
-              <Education/>
+              <Experience/>
             </TabPane>
             <TabPane tabId="3">
-              <PersonalProjects/>
+              <Education/>
             </TabPane>
             <TabPane tabId="4">
               <LanguagesAndTechnologies/>

@@ -71,8 +71,7 @@ class PersonalProjects extends React.Component {
                       <Media heading>
                         <a href={project.url}>{project.projectName}</a>
                       </Media>
-                      {/* <hr></hr> */}
-                          <p className="jobDescription">{project.description}</p>
+                        <p className="jobDescription">{project.description}</p>
                     </Media>
                   </Media>
                 </div>

@@ -1,6 +1,6 @@
 {
     "title": "Youssef Errami",
-    "summary": "I am a recent Computer Science graduate from the University of Virginia who is currently looking for full-time Software Engineer positions!",
+    "summary": "I am a recent Computer Science graduate from the University of Virginia with experience in front-end, back-end, and machine learning development. I am currently looking for full-time Software Engineer positions!",
     "studies": [
       {
         "institute": "University of Virginia",
@@ -63,7 +63,7 @@
             },
             {
                 "title":"Teaching Assistant for Operating Systems",
-                "description":"As a TA, I hold weekly office hours to help students analyze process communication and synchronization; resource management; virtual memory management algorithms; file systems; and networking and distributed systems via weekly programming assignments",
+                "description":"As a TA, I held weekly office hours to help students analyze process communication and synchronization; resource management; virtual memory management algorithms; file systems; and networking and distributed systems via weekly programming assignments",
                 "startDate":"2019-08-22",
                 "endDate":"2020-05-20",
                 "link": "https://www.cs.virginia.edu/~cr4bd/4414/S2020/",
@@ -71,7 +71,7 @@
             },
             {
                 "title":"Teaching Assistant for Advanced Software Development",
-                "description":"As a TA, I grade and hold weekly office hours and help students analyze modern software engineering practice for multi-person projects; methods for requirements specification, design, implementation, verification, and maintenance of large software systems; advanced software development techniques and large project management approaches; project planning, scheduling, resource management, accounting, configuration control, and documentation.",
+                "description":"As a TA, I graded assignments and held weekly office hours to help students analyze modern software engineering practice for multi-person projects; methods for requirements specification, design, implementation, verification, and maintenance of large software systems; advanced software development techniques and large project management approaches; project planning, scheduling, resource management, accounting, configuration control, and documentation.",
                 "startDate":"2019-08-22",
                 "endDate":"2020-05-20",
                 "link": "https://cs3240.cs.virginia.edu",
@@ -79,7 +79,7 @@
             },
             {
                 "title":"Teaching Assistant for Theory of Computation",
-                "description":"As a TA, I grade and hold weekly Office Hours to help students with their Programming and Written Homework assignments. Their programming assignments consist of coding various theory of computation topics, such as finite automata, in Python and Java. Their written assignments consist of theory related questions that deal with languages, automata, P vs NP, Turing Machines, etc.",
+                "description":"As a TA, I graded assignments and held weekly Office Hours to help students with their Programming and Written Homework assignments. Their programming assignments consisted of coding various theory of computation topics, such as finite automata, in Python and Java. Their written assignments consisted of theory related questions that dealt with languages, automata, P vs NP, Turing Machines, etc.",
                 "startDate":"2018-12-20",
                 "endDate":"2020-05-20",
                 "link":"https://www.cs.virginia.edu/~njb2b/cstheory/s2020/",
@@ -93,13 +93,13 @@
           "projectName":"Twitter Sentiment Analysis Tool",
           "logo":"https://www.clipartkey.com/mpngs/m/81-815856_twitter-logo-inside-a-gear-twitter-api-png.png",
           "url":"https://github.com/eryous/twitterSentiAnalysis",
-          "description":"This is a Python program that uses the Tweepy, Matplotlib and Aylien Applicant Libraries that prompts a user to input a word and an amount of tweets that you want analyzed so that you can see the general sentiment of the given word. The tweets are analyzed using the Aylien Applicant Library and then output a pie chart that contains the results which are categorized as a 'Positive', 'Negative' or 'Neutral' comment"
+          "description":"This is a Python program that uses the Tweepy, Matplotlib and Aylien Applicant Libraries that prompts a user to input a word and an amount of tweets that you want analyzed so that you can see the general sentiment of the given word. The tweets are analyzed using the Aylien Applicant Library and then output a pie chart that contains the results which are categorized as a 'Positive', 'Negative' or 'Neutral' comment."
         },
         {
             "projectName":"Voronoi Video Art",
             "logo":"https://jef.works/art-with-code//img/voronoi_1.jpg",
             "url":"https://github.com/eryous/Voronoi-Video-Art",
-            "description":"This is a project I and two other teammates developed which consists of implementing Voronoi Art over videos. We took a short 3-4 second video, and decomposed it down into individual frames (each video typically had about 100 frames, each saved as its own .jpg file). We then applied a voronoi algorithm based on Delaunay Triangulation since the voronoi diagram of a set of points is the dual of the Delaunay Triangulation of the same points. We then recompiled the .jpg files together again to create a video with the Voronoi diagrams overlaid over each frame."
+            "description":"This is a project I and two other teammates developed which consists of implementing Voronoi Art over videos. We took a user-inputted video and decomposed it down into individual frames (each video typically had about 100 frames, each saved as its own .jpg file). We then applied a voronoi algorithm based on Delaunay Triangulation since the voronoi diagram of a set of points is the dual of the Delaunay Triangulation of the same points. We then recompiled the .jpg files together again to create a video with the Voronoi diagrams overlaid over each frame."
         },
         {
             "projectName":"Taskey: Study Buddy Matching Web App",
@@ -181,7 +181,7 @@
           },
           {
             "name":"Scikit-Learn",
-            "logo":"https://pbs.twimg.com/profile_images/1105548722/scikit-learn-logo_400x400.png"
+            "logo":"http://www.userk.co.uk/wp-content/uploads/2016/08/365630.png"
           }
       ]
   }
