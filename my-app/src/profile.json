@@ -93,7 +93,7 @@
         "projectName":"Attention Seeker",
         "logo":"https://imgur.com/FRP9sQi.png",
         "url":"https://github.com/eryous/AttentionSeeker",
-        "description":"This is a Python program that pauses the video you are watching if you are not looking at the screen! This is the perfect solution for if you want to respond to a text without missing any important scenes and without having to manually pause the video. I used OpenCV's Haar Cascades, which are trained classifiers for detecting faces, in order to detect when someone is paying attention or not. If you would like to see it in action, look at the README on the Github page linked above!"
+        "description":"This is a Python program that pauses the video you are watching if you are not looking at the screen! This is the perfect solution for if you want to respond to a text without missing any important scenes and without having to manually pause the video. I used OpenCV's Haar Cascades, which are trained classifiers for detecting faces, in order to detect when someone is paying attention or not. I also used my own implementation of a Circular Buffer to help determine whether or not to pause the video. If you would like to see it in action, look at the README on the Github page linked above!"
         },
         {
           "projectName":"Twitter Sentiment Analysis Tool",
