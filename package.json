@@ -1,10 +1,4 @@
 {
-<<<<<<< HEAD
-  "dependencies": {
-    "@fortawesome/free-regular-svg-icons": "^5.13.1",
-    "react-fade-in": "^1.1.0",
-    "react-lottie": "^1.2.3"
-=======
   "homepage": "http://eryous.github.io",
   "name": "my-app",
   "version": "0.1.0",
@@ -52,6 +46,5 @@
   },
   "devDependencies": {
     "gh-pages": "^3.1.0"
->>>>>>> f987bcfc24c159ff69d601c08156803e4b86d535
   }
 }
