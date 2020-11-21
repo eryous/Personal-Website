@@ -51,7 +51,17 @@
       {
         "companyName":"Pendo",
         "logo":"https://pbs.twimg.com/profile_images/1285927459305684996/OiLFK93Q.png",
-        "url":"https://pendo.io"
+        "url":"https://pendo.io",
+        "roles":[
+          {
+            "title": "Software Engineer",
+            "description":"Working on the backend of Pendo's Guides feature",
+            "currentJob":"True",
+            "startDate":"2020-11-02",
+            "link": "https://pendo.io",
+            "location":"Raleigh, NC"
+          }
+        ]
       },
       {
         "companyName":"University of Virginia: Department of Computer Science",
